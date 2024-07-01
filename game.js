@@ -11,7 +11,7 @@
 
  $(document).keydown(function(){
     if(!started){
-        $("#level-title").text("level" + level);
+        $("#level-title").text("level - " + level);
         nextSequence();
         started = true;
     }
